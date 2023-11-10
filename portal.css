@@ -1,0 +1,72 @@
+/* * {
+    border: 1px solid red;  this is to have a guide of each thing that a webside has or should has
+}*/ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+
+body{
+    font-size: 15px;
+    font-family: Montserrat, Verdana, Serif;
+    background-color:white;
+
+}
+
+.font{
+    font-family: OpenSans, Verdana, Serif;
+}
+
+a {
+    background-color: #A0CED0;
+    color: rgb(71, 69, 69);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: darkgray;
+    color: white;
+    border-radius: 5px;
+
+}
+
+nav { 
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+img{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #A0CED0;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+p{
+    /* text-align: center; */
+    width: 30%;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.background {
+    background-color:darkgray;
+}
+
+footer p {
+    background-color: #A0CED0;
+    color: rgb(71, 69, 69);
+    width: 100%;
+    text-align: center;
+}
