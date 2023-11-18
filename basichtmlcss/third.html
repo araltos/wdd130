@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="#">
+    <title>CSS Fundamentals</title>
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="IndexWeb">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="second.html">HTML Basics</a>
+            <a href="third.html">CSS Fundamentals</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+        <h1 class="home-title">CSS Fundamentals</h1>
+    <h2 class="subtile">What is CSS?</h2>
+    <p>CSS, or Cascading Style Sheets, is a language used to style the appearance of your website. It determines how your HTML elements are presented on the screen. Think of it as the fashion designer for your web content – it defines colors, fonts, spacing, and layout.</p>
+        <img src="images/page3one.jpg" alt="image for page3">
+        
+    <h2 class="subtile">The Basics of CSS</h2>
+
+    <h3>Selector and Declaration</h3>
+    <p>CSS rules consist of selectors and declarations. The selector targets HTML elements, and the declaration block contains the styles. Here's a simple example:</p>
+    <pre>
+        /* Selector: Targets all paragraphs */
+        p {
+            /* Declaration block: Styles for paragraphs */
+            color: #333; /* Text color */
+            font-size: 16px; /* Text size */
+            margin-bottom: 20px; /* Spacing at the bottom */
+        }
+    </pre>
+
+    <h3 class="subtile">Colors</h3>
+    <p>Colors in CSS can be defined using names, HEX codes, RGB, or HSL values. For example:</p>
+    <pre>
+        /* Using a color name */
+        h1 {
+            color: red;
+        }
+
+        /* Using a HEX code */
+        p {
+            color: #008080; /* Teal color */
+        }
+    </pre>
+
+    <h3 class="subtile">Fonts</h3>
+    <p>You can set the font family for your text using the <code>font-family</code> property:</p>
+    <pre>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+    </pre>
+
+    <h3 class="subtile">Box Model</h3>
+    <p>CSS treats every HTML element as a box. The box model includes properties like <code>margin</code>, <code>padding</code>, <code>border</code>, and <code>width/height</code>. For example:</p>
+    <pre>
+        /* Adding padding to a div */
+        div {
+            padding: 10px;
+        }
+    </pre>
+
+    <img src="images/page3two.jpg" alt="image for page3">
+    
+    <h2 class="subtile">Responsive Design</h2>
+    <p>Responsive design ensures your website looks good on various devices. Use media queries to adjust styles based on screen size:</p>
+    <pre>
+        /* Adjusting styles for smaller screens */
+        @media only screen and (max-width: 600px) {
+            body {
+                font-size: 14px; /* Decrease font size */
+            }
+
+            /* More styles for small screens... */
+        }
+    </pre>
+
+    <h2 class="subtile">Putting it All Together</h2>
+    <p>Now, let's combine these concepts to style a simple webpage:</p>
+    <pre>
+        <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;meta charset="UTF-8"&gt;
+                &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                &lt;title&gt;My Simple Website&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+
+                &lt;h1&gt;Welcome to My Simple Website!&lt;/h1&gt;
+                &lt;p&gt;This is a basic introduction to CSS for creating responsive websites. Feel free to explore and customize these styles as you learn more!&lt;/p&gt;
+
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
+
+    <p>This HTML file incorporates the discussed CSS concepts to create a simple, responsive webpage.</p>
+
+
+    <p>Happy styling! 🎨</p>
+
+    <footer>
+        <p>IndexWeb &copy; 2023 - Santiago Jara</p>
+    </footer>
+</body>
+</html>
