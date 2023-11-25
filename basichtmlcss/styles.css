@@ -17,6 +17,7 @@ body {
     font-size: 2em;
     margin-top: 10px;
     font-style: Monserrat;
+    text-align: center;
 }
 .subtile{
     font-style: OpenSans;
@@ -35,6 +36,7 @@ header {
 
 .logo {
     width: 100px;
+    
 }
 
 nav {
@@ -55,6 +57,31 @@ nav a:hover {
     color: #F6AE2D;
 }
 
+/* Grid */
+#mainPosition{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+#r_one{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 400px;
+
+} 
+
+#l_one{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 400px;
+    
+}
+
+p {
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
 
 /* Footer */
 footer {
