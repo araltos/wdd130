@@ -303,10 +303,13 @@ h4 {
 
 
 
-/* Form CSS */
+/* Rates and dates */
 #text_title{
     font-size: 1em;
     text-align: center;
+}
+main{
+    padding: 10px;
 }
 
 form {

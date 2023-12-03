@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="styles.css">
     <title>HTML Basics</title>
 </head>
 <body>
@@ -15,89 +15,116 @@
             <a href="index.html">Home</a>
             <a href="second.html">HTML Basics</a>
             <a href="third.html">CSS Fundamentals</a>
-            <a href="#">Contact Us</a>
         </nav>
     </header>
         <h1 class="home-title">HTML Basics</h1>
-    <h2 class="subtile">What is HTML?</h2>
-    <p>HTML, which stands for HyperText Markup Language, is the backbone of every webpage on the internet. It's a language that helps browsers understand how to structure and present content. Don't worry if that sounds technical – we'll break it down step by step!</p>
+        <h2>What is HTML?</h2>
 
-    <h2 class="subtile">Your First HTML Page</h2>
-    <p>Imagine your website as a house. HTML is the blueprint that defines the structure of your house. Let's create the most basic HTML structure for your webpage:</p>
-    <img src="images/page2one.jpg" alt="image for page">
-    <pre>
-        &lt;!DOCTYPE html&gt;
-        &lt;html lang="en"&gt;
-        &lt;head&gt;
-            &lt;meta charset="UTF-8"&gt;
-            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-            &lt;title&gt;My First Website&lt;/title&gt;
-        &lt;/head&gt;
-        &lt;body&gt;
-            &lt;h1&gt;Welcome to My First Website!&lt;/h1&gt;
-            &lt;p&gt;This is a simple webpage created with HTML.&lt;/p&gt;
-        &lt;/body&gt;
-        &lt;/html&gt;
-    </pre>
+        <div id="secondPosition">
+                    
+                    <!-- class="subtile" -->
+                    <p class="first_paragraph">
+                        HTML, which stands for HyperText Markup Language, is the backbone of every webpage on the internet. It's a language that helps browsers understand how to structure and present content. Don't worry if that sounds technical – we'll break it down step by step!
+                        Your First HTML Page
+                        Imagine your website as a house. HTML is the blueprint that defines the structure of your house. Let's create the most basic HTML structure for your webpage:
+                    </p>
+                    <!-- class="subtile" -->
+                    <img id="top_one" src="images/page2one.jpg" alt="image for page">
+                    <img id="below_one" src="images/page2two.jpg" alt="image for page">
 
-    <p><code>&lt;!DOCTYPE html&gt;</code>: This tells the browser that you're using HTML5, the latest version of HTML.</p>
-    <p><code>&lt;html lang="en"&gt;</code>: The root element of your HTML document, indicating the language (in this case, English).</p>
-    <p><code>&lt;head&gt;</code>: Contains meta-information about your webpage, such as the character set and viewport settings.</p>
-    <p><code>&lt;title&gt;</code>: Sets the title of your webpage, which appears in the browser tab.</p>
-    <p><code>&lt;body&gt;</code>: This is where the content of your webpage goes, like text, images, and more.</p>
+            <pre class="first_pre">
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="en"&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;My First Website&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;Welcome to My First Website!&lt;/h1&gt;
+                    &lt;p&gt;This is a simple webpage created with HTML.&lt;/p&gt;
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </pre>
 
-    <h2 class="subtile">Adding Content</h2>
-    <p>Let's add some content to your webpage. Think of the <code>&lt;h1&gt;</code> as the main heading of your page, and the <code>&lt;p&gt;</code> as a paragraph of text.</p>
+                        <p class="first_code"><code>&lt;!DOCTYPE html&gt;</code>: This tells the browser that you're using HTML5, the latest version of HTML.
+                            <code>&lt;html lang="en"&gt;</code>: The root element of your HTML document, indicating the language (in this case, English).
+                            <code>&lt;head&gt;</code>: Contains meta-information about your webpage, such as the character set and viewport settings.
+                            <code>&lt;title&gt;</code>: Sets the title of your webpage, which appears in the browser tab.
+                            <code>&lt;body&gt;</code>: This is where the content of your webpage goes, like text, images, and more.</p>
+                    <!-- class="subtile" -->
+                    <p class="second_paragraph">
+                        Adding Content
+                        Let's add some content to your webpage. Think of the <code>&lt;h1&gt;</code> as the main heading of your page, and the <code>&lt;p&gt;</code> as a paragraph of text.
+                    </p>
 
-    <pre>
-        &lt;body&gt;
-            &lt;h1&gt;Welcome to My First Website!&lt;/h1&gt;
-            &lt;p&gt;This is a simple webpage created with HTML. It's a wonderful journey into the world of web development!&lt;/p&gt;
-            &lt;p&gt;Let's explore the basics of HTML together.&lt;/p&gt;
-        &lt;/body&gt;
-    </pre>
+            <pre class="second_pre">
+                &lt;body&gt;
+                &lt;h1&gt;Welcome to My First Website!&lt;/h1&gt;
+                &lt;p&gt;This is a simple webpage created with HTML. It's a wonderful journey into the world of web development!&lt;/p&gt;
+                &lt;p&gt;Let's explore the basics of HTML together.&lt;/p&gt;
+                &lt;/body&gt;
+            </pre>
+                    <!-- class="subtile" -->
+                    <p class="third_paragraph">
+                        Creating a Simple List
+                        HTML allows you to create lists easily. Let's add a simple unordered list (bulleted list) to your page.
+                    </p>
 
-    <h2 class="subtile">Creating a Simple List</h2>
-    <p>HTML allows you to create lists easily. Let's add a simple unordered list (bulleted list) to your page.</p>
+            <pre class="third_paragraph">
+                &lt;body&gt;
+                    &lt;h1&gt;Welcome to My First Website!&lt;/h1&gt;
+                    &lt;p&gt;This is a simple webpage created with HTML. It's a wonderful journey into the world of web development!&lt;/p&gt;
+                    &lt;p&gt;Let's explore the basics of HTML together.&lt;/p&gt;
 
-    <pre>
-        &lt;body&gt;
-            &lt;h1&gt;Welcome to My First Website!&lt;/h1&gt;
-            &lt;p&gt;This is a simple webpage created with HTML. It's a wonderful journey into the world of web development!&lt;/p&gt;
-            &lt;p&gt;Let's explore the basics of HTML together.&lt;/p&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;Learn about HTML tags&lt;/li&gt;
+                    &lt;li&gt;Understand the structure of a webpage&lt;/li&gt;
+                    &lt;li&gt;Create your own content&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;/body&gt;
+            </pre>
+                        <!-- class="subtile" -->
+                        <p class="fourth_paragraph">
+                            Making it Responsive
+                            To make your website look good on various devices (like phones and tablets), you can add a meta tag in the <code>&lt;head&gt;</code> section.
+                        </p>
 
-            &lt;ul&gt;
-                &lt;li&gt;Learn about HTML tags&lt;/li&gt;
-                &lt;li&gt;Understand the structure of a webpage&lt;/li&gt;
-                &lt;li&gt;Create your own content&lt;/li&gt;
-            &lt;/ul&gt;
-        &lt;/body&gt;
-    </pre>
+            <pre class="fourth_paragraph">
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;My First Website&lt;/title&gt;
+                &lt;/head&gt;
+            </pre>
 
-    <img src="images/page2two.jpg" alt="image for page">
-    
-    <h2 class="subtile">Making it Responsive</h2>
-    <p>To make your website look good on various devices (like phones and tablets), you can add a meta tag in the <code>&lt;head&gt;</code> section.</p>
-
-    <pre>
-        &lt;head&gt;
-            &lt;meta charset="UTF-8"&gt;
-            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-            &lt;title&gt;My First Website&lt;/title&gt;
-        &lt;/head&gt;
-    </pre>
-
-    <p>This meta tag sets the viewport to the device's width and scales the content accordingly.</p>
-
-    <h2 class="subtile">Final Thoughts</h2>
-    <p>Congratulations! You've just created the foundation of your first webpage with HTML. It's like assembling the rooms of your digital house. As you learn more, you'll be able to add styles, colors, and even interactive elements to make your website unique.</p>
-
-    <p>Stay tuned for our next lesson on adding style with CSS!</p>
-
-    <p>Happy coding! 🚀</p>
+                        <p class="fifth_paragraph">
+                            This meta tag sets the viewport to the device's width and scales the content accordingly.
+                            Final Thoughts
+                            Congratulations! You've just created the foundation of your first webpage with HTML. It's like assembling the rooms of your digital house. As you learn more, you'll be able to add styles, colors, and even interactive elements to make your website unique.
+                            Stay tuned for our next lesson on adding style with CSS!
+                            Happy coding! 🚀
+                        </p>
+                        <!-- class="subtile" -->
+        </div>
 
     <footer>
         <p>IndexWeb &copy; 2023 - Santiago Jara</p>
+        <a id="bottom" href="#">Contact Us</a>
+        <a class="social_icon" href="https://instagram.com" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+        <!-- <img src="images/instagram_logo.png" alt="ins icon"> -->
+        </a>
+        <a class="social_icon" href="https://www.linkedin.com/in/leonardo-jara-04102925a/?trk=public-profile-join-page" target="_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+        <!-- <img src="images/linkeding_logo.png" alt="lk icon"> -->
+        </a>
+        <a class="social_icon" href="https://github.com/araltos" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+        <!-- <img src="images/github_logo.png" alt="gh icon"> -->
+        </a>
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
