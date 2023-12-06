@@ -119,17 +119,35 @@ footer {
 }
 
 
-/* Social media */
-.social_icon {
+/* Social media
+ion-icon {
     color: #622495;
     text-decoration: none;
-    font-size: 32px;
+    font-size: large
     transition: color 0.2s; 
+    margin: 5px;
+    
 }
 
-.social_icon:hover {
-    color: #F6AE2D;
+ion-icon:hover {
+    color: #F6AE2D; 
+}*/
+.social-icons {
+    margin-top: 10px;
+    text-decoration: none;
+    --ionicon-stroke-width: 16px;
 }
+
+.icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: #622495;
+    --ionicon-stroke-width: 16px;
+}
+.icon:hover{
+    color: #F6AE2D; 
+}
+
 
 /* Second page */
 
@@ -141,13 +159,13 @@ footer {
 }
 
 #top_one{
-    grid-column: 10/10;
+    grid-column: 12/12;
     grid-row: 3/5;
     width: 400px;
 }
 
 #below_one{
-    grid-column: 10/10;
+    grid-column: 12/12;
     grid-row: 5/7;
     width: 400px;
 }
